@@ -10,10 +10,18 @@ a { display: block; }
     align-items: center;
 }
 
+img { width: 100%; }
+label {
+    margin-top: 10px;
+}
+
+.hero { margin: 30px; }
+
 body {
     margin: 0;
     background-color: #E6E6E6;
     color: black;
+    line-height: 1;
 }
 
 .title {
@@ -47,12 +55,20 @@ navigation {
     flex-direction: row;
     justify-content: center;
     list-style: none;
-    min-width: 200px;
-    border-color: black;
-    text-align: inherit;
+}
+
+.navigation ul li a {
+    color: white;
     font-family: "Georgia";
-    text-decoration: underline;
-    padding: 0 3%;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.dropdown { flex-direction: column; }
+
+.dropdown a {
+    overflow: hidden;
+    font-size: 12px;
 }
 
 .homeImg img {
