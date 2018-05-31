@@ -237,6 +237,9 @@ footer {
     max-height: 0;
     flex-direction: column;
     font-size: 12px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
 .dropdown .dropdown-menu {
@@ -247,6 +250,9 @@ footer {
     border: hidden;
     z-index: 1000;
     font-size: 12px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -254,6 +260,7 @@ footer {
     flex-direction: column;
     height: 150px;
     font-size: 12px;
+    justify-content: center;
 }
 
 .dropdown .dropdown-menu a{
