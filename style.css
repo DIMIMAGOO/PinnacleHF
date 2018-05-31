@@ -10,18 +10,10 @@ a { display: block; }
     align-items: center;
 }
 
-img { width: 100%; }
-label {
-    margin-top: 10px;
-}
-
-.hero { margin: 30px; }
-
 body {
     margin: 0;
     background-color: #E6E6E6;
     color: black;
-    line-height: 1;
 }
 
 .title {
@@ -55,20 +47,12 @@ navigation {
     flex-direction: row;
     justify-content: center;
     list-style: none;
-}
-
-.navigation ul li a {
-    color: white;
+    min-width: 200px;
+    border-color: black;
+    text-align: inherit;
     font-family: "Georgia";
-    font-size: 12px;
-    padding: 10px 20px;
-}
-
-.dropdown { flex-direction: column; }
-
-.dropdown a {
-    overflow: hidden;
-    font-size: 12px;
+    text-decoration: underline;
+    padding: 0 3%;
 }
 
 .homeImg img {
@@ -102,7 +86,7 @@ navigation {
 
 .navigation li {
     background-color: black;
-    width: 190px;
+    max-width: 190px;
     line-height: 35px;
     padding: 0 2.9%;
     font-size: 12px;
