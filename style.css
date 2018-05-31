@@ -251,6 +251,11 @@ footer {
     font-size: 12px;
 }
 
+.container.flexbox {
+    display: flex;
+    align-items: center;
+}
+
 .dropdown:hover .dropdown-menu {
     max-height: 800px;
     flex-direction: column;
