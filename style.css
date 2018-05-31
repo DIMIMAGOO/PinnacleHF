@@ -60,7 +60,7 @@ navigation {
 .navigation ul li a {
     color: white;
     font-family: "Georgia";
-    font-size: 16px;
+    font-size: 12px;
     padding: 10px 20px;
 }
 
@@ -102,7 +102,7 @@ navigation {
 
 .navigation li {
     background-color: black;
-    max-width: 190px;
+    width: 190px;
     line-height: 35px;
     padding: 0 2.9%;
     font-size: 12px;
