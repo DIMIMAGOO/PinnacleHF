@@ -212,7 +212,7 @@ footer {
     flex-direction: column;
     padding: 0;
     margin: 0;
-    max-width: 40px;
+    max-width: 4%;
     font-size: 12px;
     align-content: center;
 }
@@ -224,18 +224,21 @@ footer {
 
 .dropdown a:hover {
     color: black;
-    justify-content: ;
+    justify-content: center;
 }
 
 .dropdown li:hover {
     background-color: #efa133;
     justify-content: center;
+    width: 100%;
 }
 
 .dropdown-menu {
     background-color: #e6e6e6;
+    padding: 0;
+    margin: 0;
     overflow: hidden;
-    transition: 1s;
+    transition: 0.7s linear;
     max-height: 0;
     flex-direction: column;
     font-size: 12px;
@@ -249,6 +252,10 @@ footer {
     border: hidden;
     z-index: 1000;
     font-size: 12px;
+    justify-content: center;
+    padding-left: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .container.flexbox {
@@ -256,18 +263,28 @@ footer {
     align-items: center;
 }
 
+dropdown-menu:hover {
+    padding: 0;
+    margin: 0;
+}
+
 .dropdown:hover .dropdown-menu {
     max-height: 800px;
     flex-direction: column;
     height: 150px;
     font-size: 12px;
+    width: 3%;
+    padding: 0;
+    margin: 0;
 }
 
 .dropdown .dropdown-menu a{
     color: white;
+    width: 100%;
 }
 .dropdown a:hover {
     color: black;
+    padding-left: 0;
 }
 
 .dropdown > a::after {
